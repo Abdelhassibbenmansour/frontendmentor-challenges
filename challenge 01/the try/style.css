@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+.lewel {
+    background-color: hsl(30, 38%, 92%);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.father {
+    width: 600px;
+    background-color: white;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left img {
+    width: 300px;
+    height: 500px;
+}
+
+.right {
+    padding: 30px;
+    width: 300px;
+    height: 500px;
+}
+
+.firstp {
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+h1 {
+    margin: 15px 0;
+    text-transform: capitalize;
+    font-family: "Montserrat", serif;
+}
+
+.secondp {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.75;
+}
+
+.right div {
+    margin: 20px 0;
+    position: relative;
+}
+
+.right div span:first-of-type {
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.right div span:last-of-type {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    position: absolute;
+    top: 9px;
+}
+
+.right .lastdiv {
+    background-color: hsl(158, 36%, 37%);
+    padding: 20px;
+    text-align: center;
+}
+
+.right .lastdiv a {
+    text-decoration: none;
+    color: white;
+}
